@@ -1,0 +1,46 @@
+00:00 Introduction
+00:30 What is Python?
+01:20 Installing Python
+02:15 Your First Python Program (Hello World)
+03:45 Variables and Data Types
+05:10 Strings and String Methods
+08:20 Numbers and Arithmetic Operations
+10:50 Getting User Input
+12:30 Type Conversion
+14:15 If Statements and Conditions
+17:40 Logical Operators (and, or, not)
+20:10 Comparison Operators
+22:30 While Loops
+25:15 For Loops
+28:40 Lists and List Methods
+32:10 Tuples
+34:20 Dictionaries
+37:50 Functions and Parameters
+41:10 Return Statement
+43:30 Exception Handling (Try/Except)
+46:15 Classes and Objects
+49:40 Constructors
+52:10 Inheritance
+55:30 Modules and Packages
+58:20 Conclusion
+
+This video is a full course for beginners to learn Python. Python is a popular programming language used for web development, data science, and automation.
+We start by installing Python from python.org and setting up a code editor like PyCharm or VS Code.
+The first program we write is `print("Hello World")`.
+Variables are used to store data. Python has different data types like strings, integers, floats, and booleans.
+Strings are text. We can use methods like `.upper()`, `.lower()`, `.find()`, and `.replace()`.
+Arithmetic operations include addition (+), subtraction (-), multiplication (*), division (/), and modulus (%).
+We can get user input using the `input()` function.
+Type conversion is important, for example `int()` converts a string to an integer.
+If statements allow us to make decisions. `if`, `elif`, and `else` are keywords.
+Logical operators `and`, `or`, `not` combine conditions.
+Loops allow us to repeat code. `while` loops run as long as a condition is true. `for` loops iterate over a sequence.
+Lists are collections of items. We can add items with `.append()`, remove with `.remove()`, and access by index.
+Tuples are immutable lists (cannot be changed).
+Dictionaries store key-value pairs.
+Functions are reusable blocks of code defined with `def`. They can take parameters and return values.
+Exception handling with `try` and `except` blocks helps manage errors without crashing the program.
+Classes and Objects are the core of Object-Oriented Programming (OOP). A class is a blueprint, and an object is an instance.
+Inheritance allows a class to use methods from another class.
+Modules are files with Python code that can be imported into other files.
+This course covers all the basics you need to start programming in Python.

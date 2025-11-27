@@ -1,0 +1,1521 @@
+[00:00:03.403] Server  LOG      ✓ Ready in 2.3s
+[00:00:06.501] Server  LOG      ○ Compiling / ...
+[00:00:14.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.263] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:27.924] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[00:00:27.928] Server  LOG     Using fallback transcript for demo video
+[00:00:33.745] Server  LOG     === CHAT API REQUEST ===
+[00:00:33.747] Server  LOG     Message: "hello python"
+[00:00:33.749] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:00:33.751] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:00:33.753] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:00:34.759] Server  LOG     Model response time: 1005ms
+[00:00:34.760] Server  LOG     Total request time: 1015ms
+[00:00:34.760] Server  LOG     Response: "The video mentions that the first program written is `print(\"Hello World\")`.\n"
+[00:00:34.876] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:00:35.093] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "The video mentions t..."
+[00:00:35.489] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 30.706302677s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-2.5-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"30s\"}]"
+[00:00:35.595] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[00:00:38.683] Server  LOG     [Google Cloud TTS] Request received: "The video mentions that the first program written ..."
+[00:00:39.552] Server  LOG     [Google Cloud TTS] Generation took 800ms
+[00:00:39.553] Server  LOG     [Google Cloud TTS] Audio size: 43008 bytes
+[00:03:11.119] Server  LOG        Reload env: .env.local
+[00:03:16.064] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:19.301] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[00:03:19.301] Server  LOG     Using fallback transcript for demo video
+[00:03:23.640] Server  LOG     === CHAT API REQUEST ===
+[00:03:23.641] Server  LOG     Message: "hello python"
+[00:03:23.644] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:03:23.645] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:03:23.646] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:03:26.159] Server  LOG     Model response time: 2509ms
+[00:03:26.162] Server  LOG     Total request time: 2517ms
+[00:03:26.163] Server  LOG     Response: "The video mentions that the first program you'll write is `print(\"Hello World\")`.\n"
+[00:03:26.305] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:03:26.467] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "The video mentions t..."
+[00:03:32.849] Server  LOG     [Gemini TTS] Success!
+[00:03:33.014] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[00:03:51.770] Server  LOG     === CHAT API REQUEST ===
+[00:03:51.771] Server  LOG     Message: "what can I get to learn from this video"
+[00:03:51.773] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:03:51.775] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:03:51.785] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:03:53.079] Server  LOG     Model response time: 1292ms
+[00:03:53.079] Server  LOG     Total request time: 1313ms
+[00:03:53.080] Server  LOG     Response: "This video teaches the basics of Python programming, including variables, data types, loops, functions, and object-oriented programming. It also covers practical aspects like installing Python and handling errors.\n"
+[00:03:53.120] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "This video teaches t..."
+[00:03:53.189] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:04:02.420] Server  LOG     [Gemini TTS] Success!
+[00:04:02.559] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[00:04:25.075] Server  LOG     === CHAT API REQUEST ===
+[00:04:25.084] Server  LOG     Message: "can you tell me your recent respond how many to conceit took"
+[00:04:25.090] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:04:25.091] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:04:25.093] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:04:26.114] Server  LOG     Model response time: 1020ms
+[00:04:26.115] Server  LOG     Total request time: 1048ms
+[00:04:26.115] Server  LOG     Response: "I cannot find that information in the video.\n"
+[00:04:26.200] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[00:04:26.293] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:04:29.681] Server  LOG     [Gemini TTS] Success!
+[00:04:29.801] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[00:06:37.669] Server  LOG     === CHAT API REQUEST ===
+[00:06:37.670] Server  LOG     Message: "hi hi"
+[00:06:37.672] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:06:37.700] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:06:37.702] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:06:39.259] Server  LOG     Model response time: 1555ms
+[00:06:39.259] Server  LOG     Total request time: 1591ms
+[00:06:39.260] Server  LOG     Response: "Hello! How can I help you learn Python today?\n"
+[00:06:39.341] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[00:06:39.380] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:06:39.504] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [400 Bad Request] Model does not support the requested response modalities: audio"
+[00:06:40.130] Server  LOG     [Google Cloud TTS] Request received: "Hello! How can I help you learn Python today?
+..."
+[00:06:40.216] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[00:06:41.010] Server  LOG     [Google Cloud TTS] Generation took 798ms
+[00:06:41.011] Server  LOG     [Google Cloud TTS] Audio size: 22080 bytes
+[00:07:35.618] Server  LOG     === CHAT API REQUEST ===
+[00:07:35.619] Server  LOG     Message: "hi"
+[00:07:35.620] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:07:35.624] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:07:35.626] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:07:36.814] Server  LOG     Model response time: 1171ms
+[00:07:36.817] Server  LOG     Total request time: 1183ms
+[00:07:36.827] Server  LOG     Response: "Hi there! Ready to learn some Python?\n"
+[00:07:36.966] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:07:37.133] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hi there! Ready to l..."
+[00:07:37.302] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[00:07:37.343] Server  LOG     [Google Cloud TTS] Request received: "Hi there! Ready to learn some Python?
+..."
+[00:07:37.569] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[00:07:38.148] Server  LOG     [Google Cloud TTS] Generation took 803ms
+[00:07:38.149] Server  LOG     [Google Cloud TTS] Audio size: 19584 bytes
+[00:09:23.927] Server  LOG     === CHAT API REQUEST ===
+[00:09:23.929] Server  LOG     Message: "hello Nigga"
+[00:09:23.931] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:09:23.936] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:09:23.940] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:09:25.298] Server  LOG     Model response time: 1356ms
+[00:09:25.299] Server  LOG     Total request time: 1382ms
+[00:09:25.299] Server  LOG     Response: "I'm sorry, I'm not supposed to generate responses that are offensive or inappropriate. Would you like me to try generating something different?\n"
+[00:09:25.335] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I'm sorry, I'm not s..."
+[00:09:25.576] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:09:25.623] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[00:09:25.658] Server  LOG     [Google Cloud TTS] Request received: "I'm sorry, I'm not supposed to generate responses ..."
+[00:09:25.939] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[00:09:26.496] Server  LOG     [Google Cloud TTS] Generation took 835ms
+[00:09:26.497] Server  LOG     [Google Cloud TTS] Audio size: 60288 bytes
+[00:09:38.138] Server  LOG     === CHAT API REQUEST ===
+[00:09:38.139] Server  LOG     Message: "hello Nigga"
+[00:09:38.140] Server  LOG     Transcript received: "YES (2459 chars)"
+[00:09:38.141] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[00:09:38.142] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[00:09:39.522] Server  LOG     Model response time: 1380ms
+[00:09:39.523] Server  LOG     Total request time: 1386ms
+[00:09:39.523] Server  LOG     Response: "I'm programmed to provide helpful and harmless information. Let's keep our conversation respectful. What Python topic are you interested in learning about?\n"
+[00:09:39.542] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I'm programmed to pr..."
+[00:09:39.632] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[00:09:39.720] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[00:09:39.835] Server  LOG     [Google Cloud TTS] Request received: "I'm programmed to provide helpful and harmless inf..."
+[00:09:40.059] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[00:09:40.826] Server  LOG     [Google Cloud TTS] Generation took 963ms
+[00:09:40.828] Server  LOG     [Google Cloud TTS] Audio size: 65664 bytes
+[10:21:34.552] Server  LOG     === CHAT API REQUEST ===
+[10:21:34.556] Server  LOG     Message: "me about how to make a resume"
+[10:21:34.557] Server  LOG     Transcript received: "YES (2459 chars)"
+[10:21:34.558] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[10:21:34.558] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:21:35.595] Server  LOG     Model response time: 1035ms
+[10:21:35.595] Server  LOG     Total request time: 1050ms
+[10:21:35.596] Server  LOG     Response: "I cannot find that information in the video.\n"
+[10:21:35.717] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:21:35.934] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[10:21:41.317] Server  LOG     [Gemini TTS] Success!
+[10:21:41.441] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:22:04.776] Server  LOG     === CHAT API REQUEST ===
+[10:22:04.779] Server  LOG     Message: "hey can you speak in Hindi"
+[10:22:04.794] Server  LOG     Transcript received: "YES (2459 chars)"
+[10:22:04.795] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[10:22:04.801] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:22:05.856] Server  LOG     Model response time: 1051ms
+[10:22:05.857] Server  LOG     Total request time: 1094ms
+[10:22:05.858] Server  LOG     Response: "I am sorry, this video is in English, so I can only answer questions using the information provided in English.\n"
+[10:22:05.890] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am sorry, this vid..."
+[10:22:05.965] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:22:12.690] Server  LOG     [Gemini TTS] Success!
+[10:22:12.818] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:22:25.358] Server  LOG     === CHAT API REQUEST ===
+[10:22:25.361] Server  LOG     Message: "okay"
+[10:22:25.366] Server  LOG     Transcript received: "YES (2459 chars)"
+[10:22:25.367] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[10:22:25.368] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:22:26.687] Server  LOG     Model response time: 1261ms
+[10:22:26.688] Server  LOG     Total request time: 1273ms
+[10:22:26.702] Server  LOG     Response: "Great! What Python topic are you interested in exploring now?\n"
+[10:22:26.868] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Great! What Python t..."
+[10:22:26.872] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:22:31.521] Server  LOG     [Gemini TTS] Success!
+[10:22:31.634] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:22:34.389] Server  LOG     === CHAT API REQUEST ===
+[10:22:34.391] Server  LOG     Message: "can you let me know what is English"
+[10:22:34.404] Server  LOG     Transcript received: "YES (2459 chars)"
+[10:22:34.406] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[10:22:34.409] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:22:35.288] Server  LOG     Model response time: 877ms
+[10:22:35.289] Server  LOG     Total request time: 900ms
+[10:22:35.289] Server  LOG     Response: "I cannot find that information in the video.\n"
+[10:22:35.318] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[10:22:35.413] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:22:40.361] Server  LOG     [Gemini TTS] Success!
+[10:22:40.528] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:23:27.031] Server  LOG     === CHAT API REQUEST ===
+[10:23:27.038] Server  LOG     Message: "kya bhai tu mujhse Hindi mein baat kar sakta hai"
+[10:23:27.039] Server  LOG     Transcript received: "YES (2459 chars)"
+[10:23:27.045] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[10:23:27.047] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:23:28.512] Server  LOG     Model response time: 1464ms
+[10:23:28.513] Server  LOG     Total request time: 1496ms
+[10:23:28.513] Server  LOG     Response: "I am sorry, this video is in English, so I can only answer questions using the information provided in English.\n"
+[10:23:28.537] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am sorry, this vid..."
+[10:23:28.629] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:23:35.285] Server  LOG     [Gemini TTS] Success!
+[10:23:35.424] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:24:04.305] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[10:24:05.705] Browser WARN    No transcript found
+[10:24:26.002] Server  LOG     === CHAT API REQUEST ===
+[10:24:26.022] Server  LOG     Message: "can you tell me"
+[10:24:26.031] Server  LOG     Transcript received: "NO"
+[10:24:26.041] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:24:27.184] Server  LOG     Model response time: 1142ms
+[10:24:27.185] Server  LOG     Total request time: 1187ms
+[10:24:27.185] Server  LOG     Response: "Tell you about what? I need a topic to provide information.\n"
+[10:24:27.341] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Tell you about what?..."
+[10:24:27.369] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:24:43.989] Server  LOG     [Gemini TTS] Success!
+[10:24:44.135] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:25:19.912] Server  LOG     === CHAT API REQUEST ===
+[10:25:19.913] Server  LOG     Message: "Kya Tu Mujhse Hindi mein baat kar sakta hai"
+[10:25:19.915] Server  LOG     Transcript received: "NO"
+[10:25:19.916] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:25:20.782] Server  LOG     Model response time: 865ms
+[10:25:20.783] Server  LOG     Total request time: 872ms
+[10:25:20.783] Server  LOG     Response: "Haan, main Hindi mein baat kar sakta hoon."
+[10:25:20.813] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Haan, main Hindi mei..."
+[10:25:20.904] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:25:24.578] Server  LOG     [Gemini TTS] Success!
+[10:25:24.699] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:25:36.374] Server  LOG     === CHAT API REQUEST ===
+[10:25:36.375] Server  LOG     Message: "kya tum mujhe Bata sakta hai main resume Kaise banaun"
+[10:25:36.376] Server  LOG     Transcript received: "NO"
+[10:25:36.377] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:25:37.735] Server  LOG     Model response time: 1357ms
+[10:25:37.735] Server  LOG     Total request time: 1363ms
+[10:25:37.736] Server  LOG     Response: "Resume banane ke liye, sabse pehle apni shiksha aur anubhav ki jaankari ek jagah ikattha karein. Phir, ek saaf aur professional template chune aur apni jaankari sahi tarah se likhe.\n"
+[10:25:37.764] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Resume banane ke liy..."
+[10:25:37.847] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:25:47.333] Server  LOG     [Gemini TTS] Success!
+[10:25:47.463] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:29:30.303] Server  LOG     === CHAT API REQUEST ===
+[10:29:30.306] Server  LOG     Message: "hello Nikhil"
+[10:29:30.307] Server  LOG     Transcript received: "NO"
+[10:29:30.311] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:29:31.305] Server  LOG     Model response time: 991ms
+[10:29:31.305] Server  LOG     Total request time: 1006ms
+[10:29:31.306] Server  LOG     Response: "Hello! How can I help you today?\n"
+[10:29:31.431] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[10:29:31.467] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:29:34.643] Server  LOG     [Gemini TTS] Success!
+[10:29:34.750] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:29:52.864] Server  LOG     === CHAT API REQUEST ===
+[10:29:52.866] Server  LOG     Message: "bhai Tu kaisa hai"
+[10:29:52.867] Server  LOG     Transcript received: "NO"
+[10:29:52.869] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:29:53.916] Server  LOG     Model response time: 1046ms
+[10:29:53.916] Server  LOG     Total request time: 1073ms
+[10:29:53.917] Server  LOG     Response: "Main ek AI hoon, isliye main theek hi hoon!"
+[10:29:53.940] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Main ek AI hoon, isl..."
+[10:29:54.034] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:29:58.499] Server  LOG     [Gemini TTS] Success!
+[10:29:58.613] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:35:22.162] Server  LOG     === CHAT API REQUEST ===
+[10:35:22.166] Server  LOG     Message: "hello bhai what is your name"
+[10:35:22.166] Server  LOG     Transcript received: "NO"
+[10:35:22.167] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:35:23.421] Server  LOG     Model response time: 1252ms
+[10:35:23.422] Server  LOG     Total request time: 1266ms
+[10:35:23.423] Server  LOG     Response: "I am an AI Video Tutor. I don't have a name.\n"
+[10:35:23.584] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am an AI Video Tut..."
+[10:35:23.757] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:35:28.431] Server  LOG     [Gemini TTS] Success!
+[10:35:28.575] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:35:40.905] Server  LOG     === CHAT API REQUEST ===
+[10:35:40.914] Server  LOG     Message: "can you teach me about how to make a resume"
+[10:35:40.917] Server  LOG     Transcript received: "NO"
+[10:35:40.921] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:35:42.465] Server  LOG     Model response time: 1543ms
+[10:35:42.466] Server  LOG     Total request time: 1568ms
+[10:35:42.466] Server  LOG     Response: "Creating a resume involves summarizing your skills, experience, and education to showcase your qualifications for a job. Start with a professional template and include sections like contact information, summary/objective, work experience, education, and skills.\n"
+[10:35:42.509] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Creating a resume in..."
+[10:35:42.575] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:35:53.428] Server  LOG     [Gemini TTS] Success!
+[10:35:53.548] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:36:06.694] Server  LOG     === CHAT API REQUEST ===
+[10:36:06.701] Server  LOG     Message: "han bhai"
+[10:36:06.702] Server  LOG     Transcript received: "NO"
+[10:36:06.704] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:36:07.829] Server  LOG     Model response time: 1124ms
+[10:36:07.829] Server  LOG     Total request time: 1217ms
+[10:36:07.830] Server  LOG     Response: "Okay bhai! How can I help you?\n"
+[10:36:07.877] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Okay bhai! How can I..."
+[10:36:08.095] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:36:11.133] Server  ERROR   [Gemini TTS] Error: "Cannot read properties of undefined (reading 'parts')"
+[10:36:11.169] Server  LOG     [Google Cloud TTS] Request received: "Okay bhai! How can I help you?
+..."
+[10:36:11.241] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[10:36:11.699] Server  LOG     [Google Cloud TTS] Generation took 526ms
+[10:36:11.700] Server  LOG     [Google Cloud TTS] Audio size: 18240 bytes
+[10:41:58.293] Server  LOG     === CHAT API REQUEST ===
+[10:41:58.294] Server  LOG     Message: "hello bhai how are you"
+[10:41:58.297] Server  LOG     Transcript received: "NO"
+[10:41:58.299] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:41:59.375] Server  LOG     Model response time: 1075ms
+[10:41:59.375] Server  LOG     Total request time: 1083ms
+[10:41:59.376] Server  LOG     Response: "As an AI, I don't experience feelings, but I'm functioning optimally and ready to assist you! How can I help you today?\n"
+[10:41:59.430] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "As an AI, I don't ex..."
+[10:41:59.483] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:41:59.783] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 7.109122746s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]"
+[10:41:59.809] Server  LOG     [Google Cloud TTS] Request received: "As an AI, I don't experience feelings, but I'm fun..."
+[10:41:59.904] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[10:42:00.686] Server  LOG     [Google Cloud TTS] Generation took 872ms
+[10:42:00.689] Server  LOG     [Google Cloud TTS] Audio size: 55680 bytes
+[10:44:38.094] Server  LOG     === CHAT API REQUEST ===
+[10:44:38.098] Server  LOG     Message: "hello bhai"
+[10:44:38.099] Server  LOG     Transcript received: "NO"
+[10:44:38.100] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:44:39.262] Server  LOG     Model response time: 1161ms
+[10:44:39.263] Server  LOG     Total request time: 1347ms
+[10:44:39.263] Server  LOG     Response: "Hello! What can I help you with?\n"
+[10:44:39.317] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! What can I he..."
+[10:44:39.369] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:44:39.721] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 27.230116393s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"27s\"}]"
+[10:44:39.781] Server  LOG     [Google Cloud TTS] Request received: "Hello! What can I help you with?
+..."
+[10:44:39.991] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[10:44:40.475] Server  LOG     [Google Cloud TTS] Generation took 692ms
+[10:44:40.476] Server  LOG     [Google Cloud TTS] Audio size: 16896 bytes
+[10:45:51.737] Server  LOG        Reload env: .env.local
+[10:46:17.832] Server  LOG     === CHAT API REQUEST ===
+[10:46:17.833] Server  LOG     Message: "kya bhai"
+[10:46:17.834] Server  LOG     Transcript received: "NO"
+[10:46:17.834] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:46:19.280] Server  LOG     Model response time: 1446ms
+[10:46:19.281] Server  LOG     Total request time: 1450ms
+[10:46:19.281] Server  LOG     Response: "Kya haal hai bhai? What's up?\n"
+[10:46:19.442] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Kya haal hai bhai? W..."
+[10:46:19.454] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:46:22.601] Server  LOG     [Gemini TTS] Success!
+[10:46:22.722] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:46:52.987] Server  LOG     === CHAT API REQUEST ===
+[10:46:52.988] Server  LOG     Message: "kya Tumhen Ko Bata sakta hai video ke andar kya content hai"
+[10:46:52.988] Server  LOG     Transcript received: "NO"
+[10:46:52.990] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:46:54.486] Server  LOG     Model response time: 1495ms
+[10:46:54.487] Server  LOG     Total request time: 1500ms
+[10:46:54.487] Server  LOG     Response: "Mujhe maaf karna, lekin mere paas video transcript uplabdh nahin hai, isliye main video ke andar ka content nahin bata sakta."
+[10:46:54.574] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Mujhe maaf karna, le..."
+[10:46:54.597] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:47:33.759] Server  LOG     [Gemini TTS] Success!
+[10:47:33.890] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:47:53.648] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[10:47:54.633] Browser WARN    No transcript found
+[10:48:21.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:48:33.561] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[10:48:33.562] Server  LOG     Using fallback transcript for demo video
+[10:49:00.923] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[10:49:01.886] Browser WARN    No transcript found
+[10:50:31.131] Server  LOG     === CHAT API REQUEST ===
+[10:50:31.131] Server  LOG     Message: "hey can you tell me how to make a resume"
+[10:50:31.132] Server  LOG     Transcript received: "NO"
+[10:50:31.133] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:50:33.508] Server  LOG     Model response time: 2356ms
+[10:50:33.554] Server  LOG     Total request time: 2359ms
+[10:50:33.587] Server  LOG     Response: "A resume should include your contact information, work experience, education, and skills. Tailor it to the specific job you're applying for by highlighting the most relevant qualifications.\n"
+[10:50:34.183] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:50:35.784] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "A resume should incl..."
+[10:50:43.664] Server  LOG     [Gemini TTS] Success!
+[10:50:43.800] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:51:00.065] Server  LOG     === CHAT API REQUEST ===
+[10:51:00.066] Server  LOG     Message: "kya bhai Tu Mujhe Hindi mein batao sakta hai"
+[10:51:00.069] Server  LOG     Transcript received: "NO"
+[10:51:00.070] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:51:01.387] Server  LOG     Model response time: 1314ms
+[10:51:01.387] Server  LOG     Total request time: 1328ms
+[10:51:01.388] Server  LOG     Response: "Mai Hindi mein uttar de sakta hu. Aapko resume banane ke bare mein kya janna hai?\n"
+[10:51:01.430] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Mai Hindi mein uttar..."
+[10:51:01.607] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:51:07.699] Server  LOG     [Gemini TTS] Success!
+[10:51:07.835] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:51:18.839] Server  LOG     === CHAT API REQUEST ===
+[10:51:18.841] Server  LOG     Message: "Main Kaise banaun"
+[10:51:18.843] Server  LOG     Transcript received: "NO"
+[10:51:18.847] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:51:20.510] Server  LOG     Model response time: 1662ms
+[10:51:20.511] Server  LOG     Total request time: 1676ms
+[10:51:20.511] Server  LOG     Response: "Resume banane ke liye, sabse pehle apna naam aur sampark details likhe, phir apne kaam ke anubhav aur shiksha ke bare mein batayein, aur ant mein apni mahatvapoorn skills ka zikr karein. Har job application ke liye resume ko thoda badalna accha hota hai.\n"
+[10:51:20.551] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Resume banane ke liy..."
+[10:51:20.798] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:51:30.656] Server  LOG     [Gemini TTS] Success!
+[10:51:30.855] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:54:24.033] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[10:54:25.289] Browser WARN    No transcript found
+[10:58:16.052] Server  LOG     === CHAT API REQUEST ===
+[10:58:16.053] Server  LOG     Message: "what is resume"
+[10:58:16.054] Server  LOG     Transcript received: "NO"
+[10:58:16.055] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:58:17.594] Server  LOG     Model response time: 1516ms
+[10:58:17.598] Server  LOG     Total request time: 1542ms
+[10:58:17.601] Server  LOG     Response: "A resume is a brief summary of your skills, experience, and education. It's used to highlight your qualifications for a job.\n"
+[10:58:17.722] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "A resume is a brief ..."
+[10:58:17.725] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:58:24.288] Server  LOG     [Gemini TTS] Success!
+[10:58:24.410] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:58:38.617] Server  LOG     === CHAT API REQUEST ===
+[10:58:38.618] Server  LOG     Message: "my resume Kaise banaun"
+[10:58:38.620] Server  LOG     Transcript received: "NO"
+[10:58:38.625] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:58:39.780] Server  LOG     Model response time: 1154ms
+[10:58:39.781] Server  LOG     Total request time: 1164ms
+[10:58:39.781] Server  LOG     Response: "To create a resume, start by listing your work experience and education. Then, add a summary of your skills and tailor it to the specific job you're applying for.\n"
+[10:58:39.998] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "To create a resume, ..."
+[10:58:40.014] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:58:47.782] Server  LOG     [Gemini TTS] Success!
+[10:58:47.935] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[10:59:01.692] Server  LOG     === CHAT API REQUEST ===
+[10:59:01.699] Server  LOG     Message: "theek hai"
+[10:59:01.701] Server  LOG     Transcript received: "NO"
+[10:59:01.702] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[10:59:02.708] Server  LOG     Model response time: 1005ms
+[10:59:02.708] Server  LOG     Total request time: 1016ms
+[10:59:02.709] Server  LOG     Response: "Great, let me know if you have any more questions!\n"
+[10:59:02.892] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[10:59:02.921] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Great, let me know i..."
+[10:59:07.728] Server  LOG     [Gemini TTS] Success!
+[10:59:07.846] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:00:35.086] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:00:36.289] Browser WARN    No transcript found
+[11:00:43.888] Server  LOG     === CHAT API REQUEST ===
+[11:00:43.949] Server  LOG     Message: "Main Ek beginner hun main resume Kaise banaun"
+[11:00:43.950] Server  LOG     Transcript received: "NO"
+[11:00:43.985] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:00:45.773] Server  LOG     Model response time: 1783ms
+[11:00:45.773] Server  LOG     Total request time: 1888ms
+[11:00:45.774] Server  LOG     Response: "As a beginner, focus on highlighting your skills, education, and any relevant projects or experiences you have, even if they're not directly work-related. Use a simple, clean format and tailor it to the specific jobs you're applying for.\n"
+[11:00:45.841] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "As a beginner, focus..."
+[11:00:45.893] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:00:57.160] Server  LOG     [Gemini TTS] Success!
+[11:00:57.283] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:02:17.817] Server  LOG     === CHAT API REQUEST ===
+[11:02:17.818] Server  LOG     Message: "क्या-क्या include kar sakta hun main"
+[11:02:17.819] Server  LOG     Transcript received: "NO"
+[11:02:17.820] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:02:18.992] Server  LOG     Model response time: 1171ms
+[11:02:18.993] Server  LOG     Total request time: 1182ms
+[11:02:18.993] Server  LOG     Response: "You can include your contact information, a brief summary or objective, your education, skills (both hard and soft), any relevant projects or volunteer experience, and any awards or certifications you've earned. Tailor the sections based on the job requirements.\n"
+[11:02:19.035] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "You can include your..."
+[11:02:19.125] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:02:28.054] Server  LOG     [Gemini TTS] Success!
+[11:02:28.323] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:02:49.356] Server  LOG     === CHAT API REQUEST ===
+[11:02:49.363] Server  LOG     Message: "Mujhe Samjha dhang se"
+[11:02:49.366] Server  LOG     Transcript received: "NO"
+[11:02:49.368] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:02:50.529] Server  LOG     Model response time: 1159ms
+[11:02:50.530] Server  LOG     Total request time: 1174ms
+[11:02:50.530] Server  LOG     Response: "Start with your name and contact details, then write a short summary of your goals. List your education, skills, and any projects or experiences.\n"
+[11:02:50.556] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Start with your name..."
+[11:02:50.640] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:03:14.044] Server  ERROR   [Gemini TTS] Error: "Cannot read properties of undefined (reading 'parts')"
+[11:03:14.803] Server  LOG     [Google Cloud TTS] Request received: "Start with your name and contact details, then wri..."
+[11:03:14.917] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:03:16.657] Server  LOG     [Google Cloud TTS] Generation took 1745ms
+[11:03:16.658] Server  LOG     [Google Cloud TTS] Audio size: 70656 bytes
+[11:03:59.110] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:04:00.465] Browser WARN    No transcript found
+[11:04:07.118] Server  LOG     === CHAT API REQUEST ===
+[11:04:07.119] Server  LOG     Message: "Bhai Main resume Kaise banaun"
+[11:04:07.120] Server  LOG     Transcript received: "NO"
+[11:04:07.121] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:04:08.590] Server  LOG     Model response time: 1468ms
+[11:04:08.591] Server  LOG     Total request time: 1472ms
+[11:04:08.592] Server  LOG     Response: "To create a resume, start with a professional template, include your contact information, work experience, education, skills, and tailor it to the job you're applying for. Make sure it is clear, concise, and error-free.\n"
+[11:04:08.665] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "To create a resume, ..."
+[11:04:08.710] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:04:16.941] Server  LOG     [Gemini TTS] Success!
+[11:04:17.067] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:04:46.605] Server  LOG     === CHAT API REQUEST ===
+[11:04:46.606] Server  LOG     Message: "and kya tum mujhe yah Hindi mein Bata sakta hai"
+[11:04:46.608] Server  LOG     Transcript received: "NO"
+[11:04:46.609] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:04:48.554] Server  LOG     Model response time: 1944ms
+[11:04:48.554] Server  LOG     Total request time: 1950ms
+[11:04:48.555] Server  LOG     Response: "Resume banane ke liye, ek professional template se shuru karein, apni sampark jankari, karya anubhav, shiksha, aur hunar shamil karein, aur ise us naukri ke hisab se banayein jiske liye aap apply kar rahe hain. Yeh sunishchit karein ki yeh spasht, sankshep, aur galti-rahit ho.\n"
+[11:04:48.586] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Resume banane ke liy..."
+[11:04:48.665] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:04:58.269] Server  LOG     [Gemini TTS] Success!
+[11:04:58.412] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:07:30.480] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:07:36.344] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:07:37.514] Browser WARN    No transcript found
+[11:07:43.799] Server  LOG     === CHAT API REQUEST ===
+[11:07:43.802] Server  LOG     Message: "Bhai Main beginner hun main resume Kaise banaun"
+[11:07:43.803] Server  LOG     Transcript received: "NO"
+[11:07:43.805] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:07:44.850] Server  LOG     Model response time: 1043ms
+[11:07:44.851] Server  LOG     Total request time: 1050ms
+[11:07:44.854] Server  LOG     Response: "For a beginner resume, focus on your education, skills, and any relevant projects or volunteer work. Use a simple, clean format and highlight your strengths.\n"
+[11:07:44.941] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "For a beginner resum..."
+[11:07:44.965] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:07:52.649] Server  LOG     [Gemini TTS] Success!
+[11:07:52.772] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:08:09.008] Server  LOG     === CHAT API REQUEST ===
+[11:08:09.009] Server  LOG     Message: "Hindi mein Samjha sakta hai"
+[11:08:09.015] Server  LOG     Transcript received: "NO"
+[11:08:09.018] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:08:10.241] Server  LOG     Model response time: 1221ms
+[11:08:10.241] Server  LOG     Total request time: 1234ms
+[11:08:10.241] Server  LOG     Response: "Zaroor! Ek beginner ke resume mein apni padhai, skills, aur kisi bhi relevant project ya volunteer kaam par focus karo. Ek simple format use karo aur apni mazbootiyon ko highlight karo"
+[11:08:10.278] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Zaroor! Ek beginner ..."
+[11:08:10.349] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:08:18.082] Server  LOG     [Gemini TTS] Success!
+[11:08:18.221] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:09:25.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:09:29.566] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:09:30.949] Browser WARN    No transcript found
+[11:09:36.983] Server  LOG     === CHAT API REQUEST ===
+[11:09:36.986] Server  LOG     Message: "Bhai Main resume Kaise banaun"
+[11:09:36.986] Server  LOG     Transcript received: "NO"
+[11:09:36.987] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:09:38.320] Server  LOG     Model response time: 1331ms
+[11:09:38.320] Server  LOG     Total request time: 1339ms
+[11:09:38.321] Server  LOG     Response: "To create a resume, start with your contact information, followed by a summary or objective statement, then"
+[11:09:38.359] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "To create a resume, ..."
+[11:09:38.438] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:09:44.614] Server  LOG     [Gemini TTS] Success!
+[11:09:44.784] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:10:00.215] Server  LOG     === CHAT API REQUEST ===
+[11:10:00.220] Server  LOG     Message: "kya tum mujhe pura Bata sakta hai"
+[11:10:00.224] Server  LOG     Transcript received: "NO"
+[11:10:00.226] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:10:01.308] Server  LOG     Model response time: 1081ms
+[11:10:01.309] Server  LOG     Total request time: 1098ms
+[11:10:01.309] Server  LOG     Response: "I can provide general guidance, but I cannot create a full resume for you. Focus on including your"
+[11:10:01.333] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I can provide genera..."
+[11:10:01.418] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:10:01.480] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 5.418308738s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"5s\"}]"
+[11:10:01.509] Server  LOG     [Google Cloud TTS] Request received: "I can provide general guidance, but I cannot creat..."
+[11:10:01.662] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:10:02.279] Server  LOG     [Google Cloud TTS] Generation took 762ms
+[11:10:02.280] Server  LOG     [Google Cloud TTS] Audio size: 47424 bytes
+[11:12:00.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:12:05.102] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:12:06.183] Browser WARN    No transcript found
+[11:12:11.291] Server  LOG     === CHAT API REQUEST ===
+[11:12:11.292] Server  LOG     Message: "hello bhai Meri Jim Kaise banaun"
+[11:12:11.295] Server  LOG     Transcript received: "NO"
+[11:12:11.297] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:12:12.551] Server  LOG     Model response time: 1253ms
+[11:12:12.551] Server  LOG     Total request time: 1261ms
+[11:12:12.552] Server  LOG     Response: "I do not have access to the video and cannot provide specific advice. However, in general, building a good gym involves selecting a space, acquiring essential"
+[11:12:12.633] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I do not have access..."
+[11:12:12.671] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:12:12.975] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 53.904229371s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"53s\"}]"
+[11:12:13.013] Server  LOG     [Google Cloud TTS] Request received: "I do not have access to the video and cannot provi..."
+[11:12:13.173] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:12:13.913] Server  LOG     [Google Cloud TTS] Generation took 896ms
+[11:12:13.914] Server  LOG     [Google Cloud TTS] Audio size: 77376 bytes
+[11:13:38.824] Server  LOG        Reload env: .env.local
+[11:13:50.620] Server  LOG     === CHAT API REQUEST ===
+[11:13:50.621] Server  LOG     Message: "hello bhai main resume Kaise banaun"
+[11:13:50.622] Server  LOG     Transcript received: "NO"
+[11:13:50.623] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:13:52.996] Server  LOG     Model response time: 2371ms
+[11:13:52.997] Server  LOG     Total request time: 2377ms
+[11:13:52.998] Server  LOG     Response: "I do not speak that language, but in general, a resume should be well-organized, concise, and tailored to the specific job you're"
+[11:13:53.138] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I do not speak that ..."
+[11:13:53.143] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:14:00.991] Server  LOG     [Gemini TTS] Success!
+[11:14:01.109] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:14:58.943] Server  LOG     === CHAT API REQUEST ===
+[11:14:58.945] Server  LOG     Message: "han bhai kaise sorry"
+[11:14:58.947] Server  LOG     Transcript received: "NO"
+[11:14:58.948] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:15:00.093] Server  LOG     Model response time: 1144ms
+[11:15:00.094] Server  LOG     Total request time: 1151ms
+[11:15:00.095] Server  LOG     Response: "No problem! To make a resume, start with your contact information, followed by a summary or objective statement. Then, list your work experience and education, and include any relevant skills.\n"
+[11:15:00.139] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "No problem! To make ..."
+[11:15:00.344] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:15:11.378] Server  LOG     [Gemini TTS] Success!
+[11:15:11.512] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:15:30.498] Server  LOG     === CHAT API REQUEST ===
+[11:15:30.500] Server  LOG     Message: "kya tum mujhe yah Hindi mein Bata sakta hai"
+[11:15:30.502] Server  LOG     Transcript received: "NO"
+[11:15:30.503] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:15:31.566] Server  LOG     Model response time: 1056ms
+[11:15:31.569] Server  LOG     Total request time: 1064ms
+[11:15:31.576] Server  LOG     Response: "mujhe Hindi nahi aati. mai sirf English me jawab de sakta hu.\n"
+[11:15:31.768] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "mujhe Hindi nahi aat..."
+[11:15:31.773] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:15:37.056] Server  LOG     [Gemini TTS] Success!
+[11:15:37.168] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:15:56.544] Server  LOG     === CHAT API REQUEST ===
+[11:15:56.545] Server  LOG     Message: "main resume Kaise banaun bhai"
+[11:15:56.546] Server  LOG     Transcript received: "NO"
+[11:15:56.547] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:15:57.726] Server  LOG     Model response time: 1177ms
+[11:15:57.726] Server  LOG     Total request time: 1182ms
+[11:15:57.727] Server  LOG     Response: "A resume should be well-organized, concise, and tailored to the specific job you're applying for. Start with your contact information, followed by a summary or objective statement. Then, list your"
+[11:15:57.763] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "A resume should be w..."
+[11:15:57.833] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:16:06.332] Server  LOG     [Gemini TTS] Success!
+[11:16:06.452] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:18:34.504] Server  LOG     === CHAT API REQUEST ===
+[11:18:34.505] Server  LOG     Message: "Mujhe Bata Bhai Main resume Kaise banaun"
+[11:18:34.506] Server  LOG     Transcript received: "NO"
+[11:18:34.506] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:18:35.938] Server  LOG     Model response time: 1430ms
+[11:18:35.940] Server  LOG     Total request time: 1435ms
+[11:18:35.942] Server  LOG     Response: "Okay, here's a simple guide to creating a resume:\n\n1.  **Contact Information:** Name, phone number, email, and (optionally) LinkedIn profile.\n2.  **Summary/Objective:** A brief overview of your skills and career goals.\n3.  **"
+[11:18:36.092] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:18:36.161] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Okay, here's a simpl..."
+[11:18:46.368] Server  LOG     [Gemini TTS] Success!
+[11:18:46.489] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:20:23.127] Server  LOG      ✓ Compiled in 330ms
+[11:21:15.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:21:25.292] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:21:27.990] Browser WARN    No transcript found
+[11:29:53.452] Server  LOG     === CHAT API REQUEST ===
+[11:29:53.454] Server  LOG     Message: "hello hello"
+[11:29:53.455] Server  LOG     Transcript received: "NO"
+[11:29:53.456] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:29:54.539] Server  LOG     Model response time: 1079ms
+[11:29:54.539] Server  LOG     Total request time: 1093ms
+[11:29:54.540] Server  LOG     Response: "Hello! How can I help you today?\n"
+[11:29:54.583] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[11:29:54.645] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:29:58.223] Server  LOG     [Gemini TTS] Success!
+[11:29:58.336] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:30:12.945] Server  LOG     === CHAT API REQUEST ===
+[11:30:12.948] Server  LOG     Message: "kaisa hai bhai"
+[11:30:12.950] Server  LOG     Transcript received: "NO"
+[11:30:12.952] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:30:14.245] Server  LOG     Model response time: 1291ms
+[11:30:14.245] Server  LOG     Total request time: 1303ms
+[11:30:14.246] Server  LOG     Response: "I am doing well, thank you for asking! How can I help you today?\n"
+[11:30:14.353] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am doing well, tha..."
+[11:30:14.358] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:30:18.896] Server  LOG     [Gemini TTS] Success!
+[11:30:19.027] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:31:27.090] Server  LOG     === CHAT API REQUEST ===
+[11:31:27.090] Server  LOG     Message: "your resume Kya Hota Hai"
+[11:31:27.092] Server  LOG     Transcript received: "NO"
+[11:31:27.129] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:31:28.805] Server  LOG     Model response time: 1673ms
+[11:31:28.805] Server  LOG     Total request time: 1779ms
+[11:31:28.806] Server  LOG     Response: "A resume is a brief summary of your qualifications, skills, and experience relevant to a job.\n"
+[11:31:28.838] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "A resume is a brief ..."
+[11:31:28.919] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:31:35.607] Server  LOG     [Gemini TTS] Success!
+[11:31:35.733] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:31:36.271] Server  LOG      ✓ Compiled in 315ms
+[11:32:02.183] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:32:07.462] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:32:08.587] Browser WARN    No transcript found
+[11:32:14.437] Server  LOG     === CHAT API REQUEST ===
+[11:32:14.437] Server  LOG     Message: "hello bhai"
+[11:32:14.438] Server  LOG     Transcript received: "NO"
+[11:32:14.439] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:32:15.329] Server  LOG     Model response time: 886ms
+[11:32:15.330] Server  LOG     Total request time: 894ms
+[11:32:15.331] Server  LOG     Response: "Hello! How can I help you today?\n"
+[11:32:15.398] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[11:32:15.453] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:32:19.452] Server  LOG     [Gemini TTS] Success!
+[11:32:19.564] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:32:25.856] Server  LOG     === CHAT API REQUEST ===
+[11:32:25.857] Server  LOG     Message: "yah resume Kya Hota Hai"
+[11:32:25.858] Server  LOG     Transcript received: "NO"
+[11:32:25.860] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:32:26.951] Server  LOG     Model response time: 1091ms
+[11:32:26.953] Server  LOG     Total request time: 1100ms
+[11:32:26.954] Server  LOG     Response: "A resume is a brief summary of your qualifications, skills, and experience relevant to a job.\n"
+[11:32:26.981] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "A resume is a brief ..."
+[11:32:27.066] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:32:33.949] Server  LOG     [Gemini TTS] Success!
+[11:32:34.093] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:32:45.953] Server  LOG     === CHAT API REQUEST ===
+[11:32:45.954] Server  LOG     Message: "Kya Main resume Mein Mera Instagram profile add kar sakta hun"
+[11:32:45.958] Server  LOG     Transcript received: "NO"
+[11:32:45.959] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:32:47.127] Server  LOG     Model response time: 1167ms
+[11:32:47.129] Server  LOG     Total request time: 1180ms
+[11:32:47.130] Server  LOG     Response: "If it's relevant to the job, yes.\n"
+[11:32:47.186] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "If it's relevant to ..."
+[11:32:47.252] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:32:51.073] Server  LOG     [Gemini TTS] Success!
+[11:32:51.188] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:33:06.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:34:10.656] Server  LOG      ✓ Compiled in 112ms
+[11:34:31.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:34:37.109] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:34:39.337] Browser WARN    No transcript found
+[11:34:47.262] Server  LOG     === CHAT API REQUEST ===
+[11:34:47.263] Server  LOG     Message: "hello bhai"
+[11:34:47.266] Server  LOG     Transcript received: "NO"
+[11:34:47.269] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:34:48.629] Server  LOG     Model response time: 1359ms
+[11:34:48.631] Server  LOG     Total request time: 1370ms
+[11:34:48.633] Server  LOG     Response: "Hello! How can I help you today?\n"
+[11:34:48.669] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[11:34:48.744] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:34:53.408] Server  LOG     [Gemini TTS] Success!
+[11:34:53.517] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:35:00.567] Server  LOG     === CHAT API REQUEST ===
+[11:35:00.568] Server  LOG     Message: "bhai Tu Mujhe resume banana Sikha"
+[11:35:00.569] Server  LOG     Transcript received: "NO"
+[11:35:00.571] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:35:01.882] Server  LOG     Model response time: 1303ms
+[11:35:01.882] Server  LOG     Total request time: 1315ms
+[11:35:01.883] Server  LOG     Response: "Okay, I can help with that. What specific questions do you have about creating a resume? For example, are you wondering about:\n\n*   What sections to include?\n*   How to format it?\n*   What information to put in each section?\n*   How to tailor"
+[11:35:01.929] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Okay, I can help wit..."
+[11:35:01.997] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:35:45.484] Server  LOG     [Gemini TTS] Success!
+[11:35:45.614] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:35:54.629] Server  LOG     === CHAT API REQUEST ===
+[11:35:54.630] Server  LOG     Message: "pic customer"
+[11:35:54.630] Server  LOG     Transcript received: "NO"
+[11:35:54.631] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:35:55.619] Server  LOG     Model response time: 986ms
+[11:35:55.619] Server  LOG     Total request time: 995ms
+[11:35:55.620] Server  LOG     Response: "I'm sorry, I'm not sure what you mean by \"pic customer.\" Could you please rephrase your question?\n"
+[11:35:55.651] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I'm sorry, I'm not s..."
+[11:35:55.731] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:36:02.847] Server  LOG     [Gemini TTS] Success!
+[11:36:02.958] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:36:24.204] Server  LOG     === CHAT API REQUEST ===
+[11:36:24.204] Server  LOG     Message: "der Kyon de raha hai bhai response mein"
+[11:36:24.205] Server  LOG     Transcript received: "NO"
+[11:36:24.205] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:36:25.287] Server  LOG     Model response time: 1081ms
+[11:36:25.288] Server  LOG     Total request time: 1084ms
+[11:36:25.288] Server  LOG     Response: "I apologize for the delay. I am processing a lot of requests. How can I help you now?\n"
+[11:36:25.317] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I apologize for the ..."
+[11:36:25.412] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:36:30.875] Server  LOG     [Gemini TTS] Success!
+[11:36:30.989] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:36:58.093] Server  LOG     === CHAT API REQUEST ===
+[11:36:58.094] Server  LOG     Message: "kya men part hai"
+[11:36:58.099] Server  LOG     Transcript received: "NO"
+[11:36:58.102] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:36:59.549] Server  LOG     Model response time: 1445ms
+[11:36:59.549] Server  LOG     Total request time: 1481ms
+[11:36:59.550] Server  LOG     Response: "In the context of resume creation, the \"main parts\" typically include:\n\n*   Contact Information\n*   Summary/Objective\n*   Work Experience\n*   Education\n*   Skills\n"
+[11:36:59.578] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "In the context of re..."
+[11:36:59.667] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:37:08.730] Server  LOG     [Gemini TTS] Success!
+[11:37:08.907] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:37:42.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:37:49.538] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:37:50.566] Browser WARN    No transcript found
+[11:38:24.081] Server  LOG     === CHAT API REQUEST ===
+[11:38:24.083] Server  LOG     Message: "hello bhai"
+[11:38:24.085] Server  LOG     Transcript received: "NO"
+[11:38:24.086] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:38:25.159] Server  LOG     Model response time: 1072ms
+[11:38:25.160] Server  LOG     Total request time: 1078ms
+[11:38:25.161] Server  LOG     Response: "Hello! How can I help you today?\n"
+[11:38:25.205] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[11:38:25.276] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:38:25.536] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 41.331248303s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"41s\"}]"
+[11:38:26.399] Server  LOG     [Google Cloud TTS] Request received: "Hello! How can I help you today?
+..."
+[11:38:26.687] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:38:28.188] Server  LOG     [Google Cloud TTS] Generation took 1523ms
+[11:38:28.192] Server  LOG     [Google Cloud TTS] Audio size: 17280 bytes
+[11:38:34.797] Server  LOG     === CHAT API REQUEST ===
+[11:38:34.799] Server  LOG     Message: "main resume Kaise banaun"
+[11:38:34.801] Server  LOG     Transcript received: "NO"
+[11:38:34.802] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:38:35.815] Server  LOG     Model response time: 999ms
+[11:38:35.816] Server  LOG     Total request time: 1024ms
+[11:38:35.816] Server  LOG     Response: "Focus on skills, experience, and education. Use a template and keep it concise.\n"
+[11:38:35.846] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Focus on skills, exp..."
+[11:38:35.932] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:38:35.972] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 30.898864742s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"30s\"}]"
+[11:38:36.041] Server  LOG     [Google Cloud TTS] Request received: "Focus on skills, experience, and education. Use a ..."
+[11:38:36.226] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:38:36.714] Server  LOG     [Google Cloud TTS] Generation took 670ms
+[11:38:36.715] Server  LOG     [Google Cloud TTS] Audio size: 44160 bytes
+[11:38:48.671] Server  LOG     === CHAT API REQUEST ===
+[11:38:48.672] Server  LOG     Message: "okay Main ismein Kya add karun"
+[11:38:48.673] Server  LOG     Transcript received: "NO"
+[11:38:48.673] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:38:49.827] Server  LOG     Model response time: 1150ms
+[11:38:49.829] Server  LOG     Total request time: 1155ms
+[11:38:49.835] Server  LOG     Response: "Add your contact information, a summary or objective, work experience, education, skills, and any relevant projects or achievements. Tailor it to the job you want.\n"
+[11:38:49.983] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:38:50.211] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Add your contact inf..."
+[11:38:50.439] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 16.541279581s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"16s\"}]"
+[11:38:50.593] Server  LOG     [Google Cloud TTS] Request received: "Add your contact information, a summary or objecti..."
+[11:38:50.600] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:38:51.566] Server  LOG     [Google Cloud TTS] Generation took 967ms
+[11:38:51.567] Server  LOG     [Google Cloud TTS] Audio size: 80832 bytes
+[11:40:19.227] Server  LOG        Reload env: .env.local
+[11:40:32.958] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:40:34.073] Browser WARN    No transcript found
+[11:40:39.175] Server  LOG     === CHAT API REQUEST ===
+[11:40:39.177] Server  LOG     Message: "hello bhai"
+[11:40:39.180] Server  LOG     Transcript received: "NO"
+[11:40:39.182] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:40:41.257] Server  LOG     Model response time: 2072ms
+[11:40:41.258] Server  LOG     Total request time: 2083ms
+[11:40:41.259] Server  LOG     Response: "Hello! How can I help you?\n"
+[11:40:41.408] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[11:40:41.418] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:41:26.994] Server  LOG     [Gemini TTS] Success!
+[11:41:27.360] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:42:28.239] Server  LOG     === CHAT API REQUEST ===
+[11:42:28.240] Server  LOG     Message: "tell me what should I including my resume"
+[11:42:28.242] Server  LOG     Transcript received: "NO"
+[11:42:28.242] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:42:29.367] Server  LOG     Model response time: 1124ms
+[11:42:29.367] Server  LOG     Total request time: 1130ms
+[11:42:29.368] Server  LOG     Response: "Include: Contact Information, Summary/Objective, Work Experience, Education, Skills.\n"
+[11:42:29.618] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Include: Contact Inf..."
+[11:42:29.623] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:42:29.734] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[11:42:30.191] Server  LOG     [Google Cloud TTS] Request received: "Include: Contact Information, Summary/Objective, W..."
+[11:42:30.285] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:42:31.392] Server  LOG     [Google Cloud TTS] Generation took 1110ms
+[11:42:31.393] Server  LOG     [Google Cloud TTS] Audio size: 50688 bytes
+[11:43:13.744] Server  LOG     === CHAT API REQUEST ===
+[11:43:13.745] Server  LOG     Message: "bhai batao what should I including my resume"
+[11:43:13.747] Server  LOG     Transcript received: "NO"
+[11:43:13.748] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:43:14.854] Server  LOG     Model response time: 1102ms
+[11:43:14.861] Server  LOG     Total request time: 1108ms
+[11:43:14.866] Server  LOG     Response: "Include: Contact Information, Summary/Objective, Work Experience, Education, Skills. Tailor it to the job.\n"
+[11:43:14.963] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Include: Contact Inf..."
+[11:43:14.978] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:43:15.089] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[11:43:15.181] Server  LOG     [Google Cloud TTS] Request received: "Include: Contact Information, Summary/Objective, W..."
+[11:43:15.368] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:43:15.824] Server  LOG     [Google Cloud TTS] Generation took 638ms
+[11:43:15.826] Server  LOG     [Google Cloud TTS] Audio size: 61056 bytes
+[11:43:27.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:43:34.010] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:43:35.226] Browser WARN    No transcript found
+[11:43:41.804] Server  LOG     === CHAT API REQUEST ===
+[11:43:41.805] Server  LOG     Message: "my what should I include in my resume"
+[11:43:41.810] Server  LOG     Transcript received: "NO"
+[11:43:41.826] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:43:42.893] Server  LOG     Model response time: 1064ms
+[11:43:42.903] Server  LOG     Total request time: 1088ms
+[11:43:42.907] Server  LOG     Response: "Include contact information, a summary or objective, work experience, education, and skills.\n"
+[11:43:43.008] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Include contact info..."
+[11:43:43.024] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:43:43.159] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[11:43:43.290] Server  LOG     [Google Cloud TTS] Request received: "Include contact information, a summary or objectiv..."
+[11:43:43.302] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[11:43:43.982] Server  LOG     [Google Cloud TTS] Generation took 686ms
+[11:43:43.983] Server  LOG     [Google Cloud TTS] Audio size: 50496 bytes
+[11:44:18.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:44:26.966] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:44:28.251] Browser WARN    No transcript found
+[11:44:33.771] Server  LOG     === CHAT API REQUEST ===
+[11:44:33.773] Server  LOG     Message: "by what should I including my resume"
+[11:44:33.774] Server  LOG     Transcript received: "NO"
+[11:44:33.776] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:44:35.122] Server  LOG     Model response time: 1346ms
+[11:44:35.123] Server  LOG     Total request time: 1352ms
+[11:44:35.123] Server  LOG     Response: "Include skills, experience, education, and contact information.\n"
+[11:44:35.325] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Include skills, expe..."
+[11:44:35.335] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:44:41.824] Server  LOG     [Gemini TTS] Success!
+[11:44:42.040] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:45:27.665] Server  LOG     === CHAT API REQUEST ===
+[11:45:27.668] Server  LOG     Message: "technical person what should I include in my resume"
+[11:45:27.670] Server  LOG     Transcript received: "NO"
+[11:45:27.670] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:45:28.551] Server  LOG     Model response time: 879ms
+[11:45:28.551] Server  LOG     Total request time: 889ms
+[11:45:28.552] Server  LOG     Response: "Include technical skills, projects, certifications, and contributions to open source.\n"
+[11:45:28.587] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Include technical sk..."
+[11:45:28.657] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:45:34.859] Server  LOG     [Gemini TTS] Success!
+[11:45:34.970] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:45:46.351] Server  LOG     === CHAT API REQUEST ===
+[11:45:46.352] Server  LOG     Message: "Polytechnical skills Mein Main Kya add kar sakta hun"
+[11:45:46.353] Server  LOG     Transcript received: "NO"
+[11:45:46.354] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:45:47.313] Server  LOG     Model response time: 958ms
+[11:45:47.314] Server  LOG     Total request time: 976ms
+[11:45:47.314] Server  LOG     Response: "Technical skills, problem-solving abilities, and hands-on experience.\n"
+[11:45:47.532] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Technical skills, pr..."
+[11:45:47.541] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:45:52.551] Server  LOG     [Gemini TTS] Success!
+[11:45:52.680] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:46:55.859] Server  LOG     === CHAT API REQUEST ===
+[11:46:55.860] Server  LOG     Message: "mujhe Hindi mein Bata sakta hai"
+[11:46:55.861] Server  LOG     Transcript received: "NO"
+[11:46:55.861] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:46:57.119] Server  LOG     Model response time: 1249ms
+[11:46:57.120] Server  LOG     Total request time: 1290ms
+[11:46:57.120] Server  LOG     Response: "ज़रूर, आप अपनी तकनीकी कौशल, समस्या-समाधान क्षमताएं, और व्यावहारिक अनुभव शामिल कर सकते हैं।\n"
+[11:46:57.161] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "ज़रूर, आप अपनी तकनीक..."
+[11:46:57.237] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:47:22.568] Server  LOG     [Gemini TTS] Success!
+[11:47:22.732] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:48:14.041] Server  LOG     === CHAT API REQUEST ===
+[11:48:14.042] Server  LOG     Message: "as a technical person mein kya add karun ismein"
+[11:48:14.043] Server  LOG     Transcript received: "NO"
+[11:48:14.044] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:48:15.212] Server  LOG     Model response time: 1165ms
+[11:48:15.213] Server  LOG     Total request time: 1173ms
+[11:48:15.213] Server  LOG     Response: "Technical skills, projects, certifications, and contributions.\n"
+[11:48:15.332] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Technical skills, pr..."
+[11:48:15.339] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:48:20.337] Server  LOG     [Gemini TTS] Success!
+[11:48:20.449] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:48:34.535] Server  LOG     === CHAT API REQUEST ===
+[11:48:34.537] Server  LOG     Message: "tum mujhe Hindi mein Sab explain kar sakta hai"
+[11:48:34.538] Server  LOG     Transcript received: "NO"
+[11:48:34.539] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:48:35.751] Server  LOG     Model response time: 1208ms
+[11:48:35.751] Server  LOG     Total request time: 1216ms
+[11:48:35.752] Server  LOG     Response: "ज़रूर, मैं आपको हिंदी में सब कुछ समझा सकता हूँ। कृपया अपना प्रश्न पूछें।\n"
+[11:48:35.784] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "ज़रूर, मैं आपको हिंद..."
+[11:48:35.858] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:48:41.322] Server  LOG     [Gemini TTS] Success!
+[11:48:41.465] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:48:50.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:48:58.655] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:48:59.825] Browser WARN    No transcript found
+[11:53:49.816] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[11:54:05.180] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[11:54:06.288] Browser WARN    No transcript found
+[11:54:38.351] Server  LOG     === CHAT API REQUEST ===
+[11:54:38.353] Server  LOG     Message: "hello bhai"
+[11:54:38.354] Server  LOG     Transcript received: "NO"
+[11:54:38.355] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:54:39.351] Server  LOG     Model response time: 994ms
+[11:54:39.352] Server  LOG     Total request time: 1001ms
+[11:54:39.353] Server  LOG     Response: "Hello! How can I help you today?\n"
+[11:54:39.460] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[11:54:39.469] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:54:43.059] Server  LOG     [Gemini TTS] Success!
+[11:54:43.166] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:54:51.280] Server  LOG     === CHAT API REQUEST ===
+[11:54:51.281] Server  LOG     Message: "can you tell me what should I include in my resume"
+[11:54:51.282] Server  LOG     Transcript received: "NO"
+[11:54:51.289] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:54:52.344] Server  LOG     Model response time: 1054ms
+[11:54:52.345] Server  LOG     Total request time: 1066ms
+[11:54:52.345] Server  LOG     Response: "Include contact information, a summary/objective, work experience, education, and skills.\n"
+[11:54:52.372] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Include contact info..."
+[11:54:52.462] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:54:58.330] Server  LOG     [Gemini TTS] Success!
+[11:54:58.468] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:55:12.144] Server  LOG     === CHAT API REQUEST ===
+[11:55:12.148] Server  LOG     Message: "as a technical person what should I include in my resume"
+[11:55:12.149] Server  LOG     Transcript received: "NO"
+[11:55:12.149] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:55:13.210] Server  LOG     Model response time: 1060ms
+[11:55:13.211] Server  LOG     Total request time: 1067ms
+[11:55:13.211] Server  LOG     Response: "For a technical resume, include technical skills, projects, certifications, and contributions to open source if applicable.\n"
+[11:55:13.239] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "For a technical resu..."
+[11:55:13.320] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:55:20.401] Server  LOG     [Gemini TTS] Success!
+[11:55:20.517] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:55:34.694] Server  LOG     === CHAT API REQUEST ===
+[11:55:34.696] Server  LOG     Message: "kya tum mujhe yah sab Hindi mein Bata sakta hai"
+[11:55:34.697] Server  LOG     Transcript received: "NO"
+[11:55:34.698] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:55:35.832] Server  LOG     Model response time: 1133ms
+[11:55:35.833] Server  LOG     Total request time: 1139ms
+[11:55:35.833] Server  LOG     Response: "ज़रूर। एक टेक्निकल रिज्यूमे में, तकनीकी कौशल, परियोजनाएं, सर्टिफिकेशन और ओपन सोर्स में योगदान (अगर है तो) शामिल करें।\n"
+[11:55:35.891] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "ज़रूर। एक टेक्निकल र..."
+[11:55:35.951] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:55:43.225] Server  LOG     [Gemini TTS] Success!
+[11:55:43.507] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[11:55:56.599] Server  LOG     === CHAT API REQUEST ===
+[11:55:56.601] Server  LOG     Message: "theek hai"
+[11:55:56.602] Server  LOG     Transcript received: "NO"
+[11:55:56.605] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[11:55:57.718] Server  LOG     Model response time: 1109ms
+[11:55:57.719] Server  LOG     Total request time: 1121ms
+[11:55:57.720] Server  LOG     Response: "Aur kuch?\n"
+[11:55:57.817] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Aur kuch?
+..."
+[11:55:57.832] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[11:56:00.786] Server  LOG     [Gemini TTS] Success!
+[11:56:00.921] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[13:36:33.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:45:00.125] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[16:45:00.139] Server  LOG     Using fallback transcript for demo video
+[16:45:06.348] Server  LOG     === CHAT API REQUEST ===
+[16:45:06.352] Server  LOG     Message: "hello bhai how are you"
+[16:45:06.354] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:45:06.354] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:45:06.355] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:45:07.803] Server  LOG     Model response time: 1445ms
+[16:45:07.804] Server  LOG     Total request time: 1459ms
+[16:45:07.805] Server  LOG     Response: "I cannot find that information in the video.\n"
+[16:45:08.139] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[16:45:08.148] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:45:08.257] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:45:08.475] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[16:45:08.552] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:45:09.255] Server  LOG     [Google Cloud TTS] Generation took 716ms
+[16:45:09.256] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[16:45:17.798] Server  LOG     === CHAT API REQUEST ===
+[16:45:17.800] Server  LOG     Message: "can you tell me how can I learn python"
+[16:45:17.802] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:45:17.809] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:45:17.855] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:45:19.198] Server  LOG     Model response time: 1332ms
+[16:45:19.199] Server  LOG     Total request time: 1402ms
+[16:45:19.200] Server  LOG     Response: "The video is a full course for beginners to learn Python, covering all the basics you need to start programming. It starts with installing Python and setting up a code editor, then walks you through various concepts like variables, data types, loops, functions, and more.\n"
+[16:45:19.247] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "The video is a full ..."
+[16:45:19.311] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:45:19.365] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:45:19.400] Server  LOG     [Google Cloud TTS] Request received: "The video is a full course for beginners to learn ..."
+[16:45:19.521] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:45:20.379] Server  LOG     [Google Cloud TTS] Generation took 976ms
+[16:45:20.380] Server  LOG     [Google Cloud TTS] Audio size: 118272 bytes
+[16:46:05.919] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:46:18.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:51:58.531] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[16:51:58.533] Server  LOG     Using fallback transcript for demo video
+[16:52:04.911] Server  LOG     === CHAT API REQUEST ===
+[16:52:04.913] Server  LOG     Message: "hello bhai"
+[16:52:04.914] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:52:04.914] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:52:04.914] Server  LOG     Using Gemini Model: gemini-1.5-flash
+[16:52:05.183] Server  ERROR   === CHAT API ERROR ===
+[16:52:05.190] Server  ERROR   Error Type: "GoogleGenerativeAIFetchError"
+[16:52:05.192] Server  ERROR   Error Message: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:52:05.322] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\.next\dev\server\chunks\_cb2264d3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.334] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\.next\dev\server\chunks\[root-of-the-server]__41abff6b._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.411] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.434] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.446] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.455] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.458] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.463] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.467] Server  ERROR   C:\Users\jayesh_naphade\.gemini\antigravity\scratch\ai_tutor_demo\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[16:52:05.480] Server  ERROR   Full Error: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[16:52:07.478] Browser ERROR   Error: {}
+[16:54:26.412] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[16:54:26.414] Server  LOG     Using fallback transcript for demo video
+[16:55:07.398] Server  LOG     === CHAT API REQUEST ===
+[16:55:07.411] Server  LOG     Message: "okay it's only voice only model"
+[16:55:07.425] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:55:07.428] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:55:07.429] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:55:08.496] Server  LOG     Model response time: 1063ms
+[16:55:08.496] Server  LOG     Total request time: 1103ms
+[16:55:08.497] Server  LOG     Response: "I am a text-based model. How can I help you with the video?\n"
+[16:55:08.537] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am a text-based mo..."
+[16:55:08.675] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:55:08.703] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:55:08.753] Server  LOG     [Google Cloud TTS] Request received: "I am a text-based model. How can I help you with t..."
+[16:55:09.386] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:55:10.278] Server  LOG     [Google Cloud TTS] Generation took 1488ms
+[16:55:10.280] Server  LOG     [Google Cloud TTS] Audio size: 28800 bytes
+[16:55:59.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[16:56:01.444] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[16:56:01.445] Server  LOG     Using fallback transcript for demo video
+[16:56:26.069] Server  LOG     === CHAT API REQUEST ===
+[16:56:26.070] Server  LOG     Message: "hello can you tell me what is python"
+[16:56:26.072] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:56:26.075] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:56:26.076] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:56:27.190] Server  LOG     Model response time: 1108ms
+[16:56:27.191] Server  LOG     Total request time: 1122ms
+[16:56:27.192] Server  LOG     Response: "Python is a popular programming language used for web development, data science, and automation. The video is a full course for beginners to learn Python.\n"
+[16:56:27.292] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Python is a popular ..."
+[16:56:27.305] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:56:27.420] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:56:27.488] Server  LOG     [Google Cloud TTS] Request received: "Python is a popular programming language used for ..."
+[16:56:27.676] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:56:28.241] Server  LOG     [Google Cloud TTS] Generation took 750ms
+[16:56:28.242] Server  LOG     [Google Cloud TTS] Audio size: 68736 bytes
+[16:56:41.967] Server  LOG     === CHAT API REQUEST ===
+[16:56:41.968] Server  LOG     Message: "Kya Mujhe Tu Mere Ghar Ka Pata Bata sakta hai"
+[16:56:41.970] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:56:41.971] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:56:41.972] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:56:43.181] Server  LOG     Model response time: 1203ms
+[16:56:43.181] Server  LOG     Total request time: 1214ms
+[16:56:43.181] Server  LOG     Response: "I cannot find that information in the video.\n"
+[16:56:43.209] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[16:56:43.291] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:56:43.342] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:56:43.366] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[16:56:43.717] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:56:44.212] Server  LOG     [Google Cloud TTS] Generation took 843ms
+[16:56:44.213] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[16:56:53.105] Server  LOG     === CHAT API REQUEST ===
+[16:56:53.108] Server  LOG     Message: "okay so kitna time lagega Mujhe Python sikhane mein"
+[16:56:53.108] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:56:53.109] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:56:53.110] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:56:54.292] Server  LOG     Model response time: 1181ms
+[16:56:54.292] Server  LOG     Total request time: 1190ms
+[16:56:54.293] Server  LOG     Response: "I cannot find that information in the video.\n"
+[16:56:54.348] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[16:56:54.403] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:56:54.475] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:56:54.502] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[16:56:54.808] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:56:55.277] Server  LOG     [Google Cloud TTS] Generation took 771ms
+[16:56:55.278] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[16:57:02.801] Server  LOG     === CHAT API REQUEST ===
+[16:57:02.803] Server  LOG     Message: "so what is tuples"
+[16:57:02.804] Server  LOG     Transcript received: "YES (2459 chars)"
+[16:57:02.805] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[16:57:02.806] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[16:57:04.065] Server  LOG     Model response time: 1256ms
+[16:57:04.065] Server  LOG     Total request time: 1265ms
+[16:57:04.066] Server  LOG     Response: "Tuples are immutable lists, which means they cannot be changed.\n"
+[16:57:04.103] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Tuples are immutable..."
+[16:57:04.174] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[16:57:04.225] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[16:57:04.266] Server  LOG     [Google Cloud TTS] Request received: "Tuples are immutable lists, which means they canno..."
+[16:57:04.426] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[16:57:05.080] Server  LOG     [Google Cloud TTS] Generation took 808ms
+[16:57:05.081] Server  LOG     [Google Cloud TTS] Audio size: 29568 bytes
+[17:26:40.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:26:42.592] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[17:26:42.595] Server  LOG     Using fallback transcript for demo video
+[17:26:46.717] Server  LOG     === CHAT API REQUEST ===
+[17:26:46.721] Server  LOG     Message: "hello"
+[17:26:46.724] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:26:46.729] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:26:46.730] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:26:47.837] Server  LOG     Model response time: 1105ms
+[17:26:47.838] Server  LOG     Total request time: 1120ms
+[17:26:47.840] Server  LOG     Response: "Hi there! This video is a full course for beginners to learn Python.\n"
+[17:26:47.938] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hi there! This video..."
+[17:26:47.964] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:26:48.062] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[17:26:48.099] Server  LOG     [Google Cloud TTS] Request received: "Hi there! This video is a full course for beginner..."
+[17:26:48.400] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[17:26:49.146] Server  LOG     [Google Cloud TTS] Generation took 1042ms
+[17:26:49.146] Server  LOG     [Google Cloud TTS] Audio size: 30528 bytes
+[17:27:02.364] Server  LOG     === CHAT API REQUEST ===
+[17:27:02.366] Server  LOG     Message: "actually server per क्या-क्या Kiya"
+[17:27:02.379] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:27:02.381] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:27:02.383] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:27:03.365] Server  LOG     Model response time: 981ms
+[17:27:03.367] Server  LOG     Total request time: 1002ms
+[17:27:03.370] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:27:03.458] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:27:03.484] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:27:03.616] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[17:27:03.681] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[17:27:03.806] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[17:27:04.305] Server  LOG     [Google Cloud TTS] Generation took 619ms
+[17:27:04.306] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[17:44:43.203] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[17:44:43.204] Server  LOG     Using fallback transcript for demo video
+[17:44:48.560] Server  LOG     === CHAT API REQUEST ===
+[17:44:48.562] Server  LOG     Message: "hello bhai how are you"
+[17:44:48.563] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:44:48.563] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:44:48.564] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:44:49.576] Server  LOG     Model response time: 1011ms
+[17:44:49.578] Server  LOG     Total request time: 1017ms
+[17:44:49.579] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:44:49.705] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:44:49.715] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:44:49.843] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-tts:generateContent: [404 Not Found] models/gemini-2.5-flash-tts is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+[17:44:49.950] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[17:44:49.979] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[17:44:50.666] Server  LOG     [Google Cloud TTS] Generation took 694ms
+[17:44:50.667] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[17:50:22.645] Server  LOG     === CHAT API REQUEST ===
+[17:50:22.646] Server  LOG     Message: "hello"
+[17:50:22.649] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:50:22.652] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:50:22.654] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:50:23.884] Server  LOG     Model response time: 1229ms
+[17:50:23.885] Server  LOG     Total request time: 1242ms
+[17:50:23.885] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:50:24.436] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:50:24.467] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:50:24.686] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [400 Bad Request] Model does not support the requested response modalities: audio"
+[17:50:24.867] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[17:50:24.915] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[17:50:25.847] Server  LOG     [Google Cloud TTS] Generation took 957ms
+[17:50:25.849] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[17:51:08.525] Server  LOG     === CHAT API REQUEST ===
+[17:51:08.527] Server  LOG     Message: "hello"
+[17:51:08.529] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:51:08.530] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:51:08.531] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:51:09.520] Server  LOG     Model response time: 986ms
+[17:51:09.522] Server  LOG     Total request time: 995ms
+[17:51:09.523] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:51:09.774] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:51:09.780] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:51:30.560] Server  LOG     [Gemini TTS] Success!
+[17:51:30.732] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[17:51:39.673] Server  LOG     === CHAT API REQUEST ===
+[17:51:39.674] Server  LOG     Message: "hello"
+[17:51:39.674] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:51:39.675] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:51:39.676] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:51:40.696] Server  LOG     Model response time: 1013ms
+[17:51:40.697] Server  LOG     Total request time: 1018ms
+[17:51:40.697] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:51:40.725] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:51:40.810] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:51:44.827] Server  LOG     [Gemini TTS] Success!
+[17:51:44.944] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[17:51:54.421] Server  LOG     === CHAT API REQUEST ===
+[17:51:54.422] Server  LOG     Message: "what is python"
+[17:51:54.423] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:51:54.424] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:51:54.425] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:51:55.632] Server  LOG     Model response time: 1206ms
+[17:51:55.632] Server  LOG     Total request time: 1227ms
+[17:51:55.633] Server  LOG     Response: "Python is a popular programming language used for web development, data science, and automation.\n"
+[17:51:55.674] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Python is a popular ..."
+[17:51:55.746] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:52:02.921] Server  LOG     [Gemini TTS] Success!
+[17:52:03.039] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[17:57:57.164] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[17:57:57.164] Server  LOG     Using fallback transcript for demo video
+[17:58:04.047] Server  LOG     === CHAT API REQUEST ===
+[17:58:04.048] Server  LOG     Message: "hello bhai"
+[17:58:04.049] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:58:04.052] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:58:04.062] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:58:05.556] Server  LOG     Model response time: 1493ms
+[17:58:05.556] Server  LOG     Total request time: 1509ms
+[17:58:05.557] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:58:05.597] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:58:05.672] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:58:10.541] Server  LOG     [Gemini TTS] Success!
+[17:58:10.652] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[17:58:28.613] Server  LOG     === CHAT API REQUEST ===
+[17:58:28.615] Server  LOG     Message: "hello bhai how are you"
+[17:58:28.616] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:58:28.617] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:58:28.618] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:58:29.677] Server  LOG     Model response time: 1057ms
+[17:58:29.680] Server  LOG     Total request time: 1066ms
+[17:58:29.681] Server  LOG     Response: "I cannot find that information in the video.\n"
+[17:58:29.723] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[17:58:29.798] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[17:58:34.296] Server  LOG     [Gemini TTS] Success!
+[17:58:34.418] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[17:58:42.581] Server  LOG     === CHAT API REQUEST ===
+[17:58:42.583] Server  LOG     Message: "what is python how can I use it"
+[17:58:42.585] Server  LOG     Transcript received: "YES (2459 chars)"
+[17:58:42.586] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[17:58:42.589] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[17:58:45.752] Server  LOG     Model response time: 3159ms
+[17:58:45.753] Server  LOG     Total request time: 3172ms
+[17:58:45.753] Server  LOG     Response: "Python is a popular programming language used for web development, data science, and automation. We start by installing Python and setting up a code editor.\n"
+[17:58:45.776] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Python is a popular ..."
+[17:58:45.869] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:00:26.614] Server  LOG     [Gemini TTS] Success!
+[18:00:26.932] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:01:06.042] Server  LOG     === CHAT API REQUEST ===
+[18:01:06.043] Server  LOG     Message: "hello"
+[18:01:06.044] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:01:06.045] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:01:06.046] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:01:07.345] Server  LOG     Model response time: 1298ms
+[18:01:07.345] Server  LOG     Total request time: 1308ms
+[18:01:07.346] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:01:07.375] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:01:07.460] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:01:14.749] Server  LOG     [Gemini TTS] Success!
+[18:01:14.859] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:01:52.916] Server  LOG     === CHAT API REQUEST ===
+[18:01:52.917] Server  LOG     Message: "what is python"
+[18:01:52.918] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:01:52.919] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:01:52.921] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:01:54.029] Server  LOG     Model response time: 1107ms
+[18:01:54.030] Server  LOG     Total request time: 1115ms
+[18:01:54.030] Server  LOG     Response: "Python is a popular programming language used for web development, data science, and automation.\n"
+[18:01:54.076] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Python is a popular ..."
+[18:01:54.141] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:03:03.272] Server  LOG     === CHAT API REQUEST ===
+[18:03:03.274] Server  LOG     Message: "hello bhai"
+[18:03:03.276] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:03:03.277] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:03:03.278] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:03:03.511] Server  LOG     [Gemini TTS] Success!
+[18:03:03.644] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:03:04.571] Server  LOG     Model response time: 1293ms
+[18:03:04.571] Server  LOG     Total request time: 1300ms
+[18:03:04.572] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:03:04.602] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:03:04.713] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:03:08.866] Server  LOG     [Gemini TTS] Success!
+[18:03:09.014] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:03:15.319] Server  LOG     === CHAT API REQUEST ===
+[18:03:15.320] Server  LOG     Message: "जब-जबाई-चबा"
+[18:03:15.321] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:03:15.322] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:03:15.324] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:03:16.550] Server  LOG     Model response time: 1224ms
+[18:03:16.552] Server  LOG     Total request time: 1232ms
+[18:03:16.553] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:03:16.608] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:03:16.672] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:03:36.034] Server  LOG     [Gemini TTS] Success!
+[18:03:36.144] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:03:59.022] Server  LOG     === CHAT API REQUEST ===
+[18:03:59.025] Server  LOG     Message: "hello nigha"
+[18:03:59.027] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:03:59.031] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:03:59.032] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:04:00.026] Server  LOG     Model response time: 993ms
+[18:04:00.026] Server  LOG     Total request time: 1005ms
+[18:04:00.027] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:04:00.272] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:04:00.284] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:04:00.841] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [400 Bad Request] This model only supports text output."
+[18:04:00.882] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[18:04:01.051] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[18:04:01.534] Server  LOG     [Google Cloud TTS] Generation took 649ms
+[18:04:01.534] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[18:04:07.148] Server  LOG     === CHAT API REQUEST ===
+[18:04:07.149] Server  LOG     Message: "what is python"
+[18:04:07.150] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:04:07.151] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:04:07.152] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:04:08.325] Server  LOG     Model response time: 1172ms
+[18:04:08.327] Server  LOG     Total request time: 1182ms
+[18:04:08.330] Server  LOG     Response: "Python is a popular programming language used for web development, data science, and automation.\n"
+[18:04:08.394] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Python is a popular ..."
+[18:04:08.447] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:04:08.970] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [400 Bad Request] This model only supports text output."
+[18:04:09.040] Server  LOG     [Google Cloud TTS] Request received: "Python is a popular programming language used for ..."
+[18:04:09.176] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[18:04:09.641] Server  LOG     [Google Cloud TTS] Generation took 598ms
+[18:04:09.649] Server  LOG     [Google Cloud TTS] Audio size: 45696 bytes
+[18:08:42.963] Server  LOG     === CHAT API REQUEST ===
+[18:08:42.964] Server  LOG     Message: "hello bhai"
+[18:08:42.967] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:08:42.970] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:08:42.973] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:08:43.989] Server  LOG     Model response time: 1014ms
+[18:08:43.989] Server  LOG     Total request time: 1029ms
+[18:08:43.990] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:08:44.131] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:08:44.157] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:08:48.683] Server  LOG     [Gemini TTS] Success!
+[18:08:48.816] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:08:55.667] Server  LOG     === CHAT API REQUEST ===
+[18:08:55.668] Server  LOG     Message: "what you can find in the video"
+[18:08:55.669] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:08:55.669] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:08:55.673] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:08:57.009] Server  LOG     Model response time: 1335ms
+[18:08:57.010] Server  LOG     Total request time: 1343ms
+[18:08:57.010] Server  LOG     Response: "The video covers topics like installing Python, writing your first program, variables, data types, strings, numbers, user input, type conversion, if statements, loops, lists, tuples, dictionaries, functions, exception handling, classes, inheritance, and modules.\n"
+[18:08:57.043] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "The video covers top..."
+[18:08:57.119] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:09:11.023] Server  LOG     [Gemini TTS] Success!
+[18:09:11.201] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:09:41.218] Server  LOG     === CHAT API REQUEST ===
+[18:09:41.220] Server  LOG     Message: "so teach me user input"
+[18:09:41.221] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:09:41.224] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:09:41.226] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:09:42.403] Server  LOG     Model response time: 1176ms
+[18:09:42.404] Server  LOG     Total request time: 1188ms
+[18:09:42.404] Server  LOG     Response: "We can get user input using the `input()` function.\n"
+[18:09:42.433] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "We can get user inpu..."
+[18:09:42.510] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:09:48.948] Server  LOG     [Gemini TTS] Success!
+[18:09:49.064] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:09:56.666] Server  LOG     === CHAT API REQUEST ===
+[18:09:56.667] Server  LOG     Message: "what are dictionary"
+[18:09:56.668] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:09:56.669] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:09:56.669] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:09:57.772] Server  LOG     Model response time: 1101ms
+[18:09:57.772] Server  LOG     Total request time: 1107ms
+[18:09:57.773] Server  LOG     Response: "Dictionaries store key-value pairs.\n"
+[18:09:57.806] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Dictionaries store k..."
+[18:09:57.882] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:10:02.218] Server  LOG     [Gemini TTS] Success!
+[18:10:02.378] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:10:10.845] Server  LOG     === CHAT API REQUEST ===
+[18:10:10.845] Server  LOG     Message: "what is classes"
+[18:10:10.846] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:10:10.847] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:10:10.848] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:10:12.097] Server  LOG     Model response time: 1249ms
+[18:10:12.099] Server  LOG     Total request time: 1254ms
+[18:10:12.100] Server  LOG     Response: "Classes and Objects are the core of Object-Oriented Programming (OOP). A class is a blueprint, and an object is an instance.\n"
+[18:10:12.130] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Classes and Objects ..."
+[18:10:12.213] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:10:19.038] Server  LOG     [Gemini TTS] Success!
+[18:10:19.167] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:10:43.419] Server  LOG     === CHAT API REQUEST ===
+[18:10:43.421] Server  LOG     Message: "what is class blueprint"
+[18:10:43.422] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:10:43.424] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:10:43.432] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:10:44.558] Server  LOG     Model response time: 1124ms
+[18:10:44.559] Server  LOG     Total request time: 1170ms
+[18:10:44.560] Server  LOG     Response: "A class is a blueprint, and an object is an instance.\n"
+[18:10:44.590] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "A class is a bluepri..."
+[18:10:44.671] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:10:49.660] Server  LOG     [Gemini TTS] Success!
+[18:10:49.817] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[18:10:59.709] Server  LOG     === CHAT API REQUEST ===
+[18:10:59.716] Server  LOG     Message: "what we can do with objects"
+[18:10:59.718] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:10:59.724] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:10:59.726] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:11:00.734] Server  LOG     Model response time: 1006ms
+[18:11:00.734] Server  LOG     Total request time: 1025ms
+[18:11:00.735] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:11:00.777] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:11:00.844] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:11:00.906] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 5.848951182s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"5s\"}]"
+[18:11:01.004] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[18:11:01.127] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[18:11:01.609] Server  LOG     [Google Cloud TTS] Generation took 602ms
+[18:11:01.610] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[18:11:10.895] Server  LOG     === CHAT API REQUEST ===
+[18:11:10.895] Server  LOG     Message: "water classes in Python"
+[18:11:10.900] Server  LOG     Transcript received: "YES (2459 chars)"
+[18:11:10.901] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[18:11:10.902] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[18:11:11.827] Server  LOG     Model response time: 924ms
+[18:11:11.829] Server  LOG     Total request time: 938ms
+[18:11:11.830] Server  LOG     Response: "I cannot find that information in the video.\n"
+[18:11:11.859] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I cannot find that i..."
+[18:11:11.948] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[18:11:11.985] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 54.771183462s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"54s\"}]"
+[18:11:12.064] Server  LOG     [Google Cloud TTS] Request received: "I cannot find that information in the video.
+..."
+[18:11:12.200] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[18:11:12.669] Server  LOG     [Google Cloud TTS] Generation took 602ms
+[18:11:12.670] Server  LOG     [Google Cloud TTS] Audio size: 19968 bytes
+[34:07:42.385] Server  LOG     Fetching transcript for video ID: kqtD5dpn9C8
+[34:07:42.392] Server  LOG     Using fallback transcript for demo video
+[34:07:53.632] Server  LOG     === CHAT API REQUEST ===
+[34:07:53.667] Server  LOG     Message: "hello"
+[34:07:53.702] Server  LOG     Transcript received: "YES (2459 chars)"
+[34:07:53.719] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[34:07:53.737] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:07:55.116] Server  LOG     Model response time: 1322ms
+[34:07:55.154] Server  LOG     Total request time: 1487ms
+[34:07:55.251] Server  LOG     Response: "Hi there! How can I help you understand Python today?\n"
+[34:07:55.451] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:07:55.676] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hi there! How can I ..."
+[34:07:59.958] Server  LOG     [Gemini TTS] Success!
+[34:08:00.124] Browser LOG     [TTS Info] Playing: Gemini (Umbriel)
+[34:17:19.156] Server  LOG     === CHAT API REQUEST ===
+[34:17:19.161] Server  LOG     Message: "hello Nikhil"
+[34:17:19.162] Server  LOG     Transcript received: "YES (2459 chars)"
+[34:17:19.174] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[34:17:19.176] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:17:20.618] Server  LOG     Model response time: 1440ms
+[34:17:20.619] Server  LOG     Total request time: 1484ms
+[34:17:20.619] Server  LOG     Response: "I am an AI tutor and do not have a name. How can I help you learn Python from the video today?\n"
+[34:17:20.751] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:17:21.923] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am an AI tutor and..."
+[34:17:22.338] Server  ERROR   [Gemini TTS] Error: "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.5-flash-tts\nPlease retry in 46.487860519s. [{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash-tts\"},\"quotaValue\":\"15\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"46s\"}]"
+[34:17:22.587] Server  LOG     [Google Cloud TTS] Request received: "I am an AI tutor and do not have a name. How can I..."
+[34:17:22.632] Browser WARN    [TTS] Gemini failed, falling back to Google Cloud TTS
+[34:17:23.472] Server  LOG     [Google Cloud TTS] Generation took 850ms
+[34:17:23.473] Server  LOG     [Google Cloud TTS] Audio size: 43392 bytes
+[34:21:10.072] Server  LOG        Reload env: .env.local
+[34:21:51.192] Server  LOG     === CHAT API REQUEST ===
+[34:21:51.215] Server  LOG     Message: "hello"
+[34:21:51.220] Server  LOG     Transcript received: "YES (2459 chars)"
+[34:21:51.227] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[34:21:51.235] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:21:52.690] Server  LOG     Model response time: 1440ms
+[34:21:52.692] Server  LOG     Total request time: 1524ms
+[34:21:52.693] Server  LOG     Response: "Hi! Ready to learn some Python? Just let me know what you'd like to know about the video.\n"
+[34:21:52.841] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:21:53.491] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hi! Ready to learn s..."
+[34:21:58.612] Server  LOG     [Gemini TTS] Success!
+[34:21:58.777] Browser LOG     [TTS Info] Playing: Gemini (Sadachbia)
+[34:22:11.293] Server  LOG     === CHAT API REQUEST ===
+[34:22:11.296] Server  LOG     Message: "Hindi mein baat karo Aur bata Paithan Kiya Hai"
+[34:22:11.303] Server  LOG     Transcript received: "YES (2459 chars)"
+[34:22:11.304] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[34:22:11.306] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:22:12.420] Server  LOG     Model response time: 1110ms
+[34:22:12.422] Server  LOG     Total request time: 1127ms
+[34:22:12.423] Server  LOG     Response: "I am sorry, I can only respond in English. According to the video, Python is a popular programming language used for web development, data science, and automation.\n"
+[34:22:12.479] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am sorry, I can on..."
+[34:22:12.537] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:22:19.237] Server  LOG     [Gemini TTS] Success!
+[34:22:19.368] Browser LOG     [TTS Info] Playing: Gemini (Sadachbia)
+[34:22:35.150] Server  LOG     === CHAT API REQUEST ===
+[34:22:35.165] Server  LOG     Message: "fir se bata"
+[34:22:35.167] Server  LOG     Transcript received: "YES (2459 chars)"
+[34:22:35.168] Server  LOG     Transcript preview: "00:00 Introduction\r\n00:30 What is Python?\r\n01:20 Installing Python\r\n02:15 Your First Python Program (Hello World)\r\n03:45 Variables and Data Types\r\n05:10 Strings and String Methods\r\n08:20 Numbers and A..."
+[34:22:35.181] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:22:36.099] Server  LOG     Model response time: 917ms
+[34:22:36.099] Server  LOG     Total request time: 969ms
+[34:22:36.100] Server  LOG     Response: "Python is a popular programming language used for web development, data science, and automation.\n"
+[34:22:36.145] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Python is a popular ..."
+[34:22:36.219] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:22:43.416] Server  LOG     [Gemini TTS] Success!
+[34:22:43.552] Browser LOG     [TTS Info] Playing: Gemini (Sadachbia)
+[34:23:51.264] Server  LOG     Fetching transcript for video ID: SHT0y9Gq_rk
+[34:23:53.343] Browser WARN    No transcript found
+[34:23:58.005] Server  LOG     === CHAT API REQUEST ===
+[34:23:58.008] Server  LOG     Message: "hello hello"
+[34:23:58.009] Server  LOG     Transcript received: "NO"
+[34:23:58.015] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:23:59.020] Server  LOG     Model response time: 1001ms
+[34:23:59.021] Server  LOG     Total request time: 1061ms
+[34:23:59.022] Server  LOG     Response: "Hello! How can I help you today?\n"
+[34:23:59.079] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "Hello! How can I hel..."
+[34:23:59.136] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:24:02.534] Server  LOG     [Gemini TTS] Success!
+[34:24:02.650] Browser LOG     [TTS Info] Playing: Gemini (Sadachbia)
+[34:24:11.204] Server  LOG     === CHAT API REQUEST ===
+[34:24:11.205] Server  LOG     Message: "bhai gand mein khujali ho rahi hai bata kya karun"
+[34:24:11.205] Server  LOG     Transcript received: "NO"
+[34:24:11.209] Server  LOG     Using Gemini Model: gemini-2.0-flash
+[34:24:12.118] Server  LOG     Model response time: 905ms
+[34:24:12.118] Server  LOG     Total request time: 915ms
+[34:24:12.119] Server  LOG     Response: "I am programmed to provide helpful and harmless information. I cannot provide medical advice. If you are experiencing discomfort, please consult a medical professional.\n"
+[34:24:12.149] Server  LOG     [Gemini TTS] Requesting Umbriel voice for: "I am programmed to p..."
+[34:24:12.227] Browser LOG     [TTS] Trying Gemini TTS (Umbriel)...
+[34:24:20.264] Server  LOG     [Gemini TTS] Success!
+[34:24:20.390] Browser LOG     [TTS Info] Playing: Gemini (Sadachbia)
+[34:34:02.788] Server  LOG      ✓ Compiled in 320ms

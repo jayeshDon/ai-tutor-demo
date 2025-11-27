@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jayesh_naphade/.gemini/antigravity/scratch/ai_tutor_demo/app/api/test-env/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\r\n\r\nexport async function GET() {\r\n    return NextResponse.json({\r\n        env: {\r\n            NEXT_PUBLIC_GEMINI_API_KEY: process.env.NEXT_PUBLIC_GEMINI_API_KEY ? 'Set' : 'Missing',\r\n            GOOGLE_APPLICATION_CREDENTIALS: process.env.GOOGLE_APPLICATION_CREDENTIALS ? 'Set' : 'Missing',\r\n            GEMINI_MODEL: process.env.GEMINI_MODEL,\r\n            TTS_VOICE_NAME: process.env.TTS_VOICE_NAME,\r\n            TTS_LANGUAGE_CODE: process.env.TTS_LANGUAGE_CODE,\r\n            TTS_GENDER: process.env.TTS_GENDER,\r\n            TTS_PITCH: process.env.TTS_PITCH,\r\n            TTS_SPEAKING_RATE: process.env.TTS_SPEAKING_RATE,\r\n        }\r\n    });\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe;IAClB,OAAO,uMAAY,CAAC,IAAI,CAAC;QACrB,KAAK;YACD,4BAA4B,uCAAyC,QAAQ;YAC7E,gCAAgC,QAAQ,GAAG,CAAC,8BAA8B,GAAG,QAAQ;YACrF,cAAc,QAAQ,GAAG,CAAC,YAAY;YACtC,gBAAgB,QAAQ,GAAG,CAAC,cAAc;YAC1C,mBAAmB,QAAQ,GAAG,CAAC,iBAAiB;YAChD,YAAY,QAAQ,GAAG,CAAC,UAAU;YAClC,WAAW,QAAQ,GAAG,CAAC,SAAS;YAChC,mBAAmB,QAAQ,GAAG,CAAC,iBAAiB;QACpD;IACJ;AACJ"}}]
+}

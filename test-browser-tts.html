@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser TTS Voice Test</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        h1 { color: #4a9eff; }
+        .section {
+            background: #16213e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #4a9eff;
+        }
+        button {
+            background: #4a9eff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+        button:hover { background: #357abd; }
+        .voice-item {
+            padding: 10px;
+            margin: 5px 0;
+            background: #0f3460;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .indian { border-left: 3px solid #ff6b6b; }
+        .selected { border-left: 3px solid #51cf66; }
+        pre {
+            background: #0a0e27;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎤 Browser TTS Voice Tester</h1>
+    
+    <div class="section">
+        <h2>📋 Available Voices</h2>
+        <div id="voiceList"></div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Selected Voice (App Logic)</h2>
+        <div id="selectedVoice"></div>
+        <button onclick="testSelectedVoice()">🔊 Test Selected Voice</button>
+    </div>
+
+    <div class="section">
+        <h2>🇮🇳 Indian English Voices</h2>
+        <div id="indianVoices"></div>
+    </div>
+
+    <div class="section">
+        <h2>📊 Console Output</h2>
+        <pre id="console"></pre>
+    </div>
+
+    <script src="test-browser-tts.js"></script>
+    <script>
+        let allVoices = [];
+        let selectedVoice = null;
+
+        function log(msg) {
+            const consoleDiv = document.getElementById('console');
+            consoleDiv.textContent += msg + '\n';
+        }
+
+        function loadVoices() {
+            allVoices = window.speechSynthesis.getVoices();
+            
+            if (allVoices.length === 0) {
+                log("⏳ Waiting for voices to load...");
+                return;
+            }
+
+            log(`✅ Loaded ${allVoices.length} voices\n`);
+            displayVoices();
+            displaySelectedVoice();
+            displayIndianVoices();
+        }
+
+        function displayVoices() {
+            const container = document.getElementById('voiceList');
+            container.innerHTML = '';
+            
+            allVoices.forEach((voice, index) => {
+                const div = document.createElement('div');
+                div.className = 'voice-item';
+                div.innerHTML = `
+                    <div>
+                        <strong>${voice.name}</strong><br>
+                        <small>${voice.lang} ${voice.localService ? '(Local)' : '(Remote)'}</small>
+                    </div>
+                    <button onclick="testVoiceByIndex(${index})">Test</button>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function displaySelectedVoice() {
+            // Same logic as ChatInterface.tsx
+            selectedVoice = allVoices.find(v => v.lang === 'en-IN') || 
+                           allVoices.find(v => v.lang.startsWith('en') && (v.name.includes('Google') || v.name.includes('Natural'))) ||
+                           allVoices.find(v => v.lang.startsWith('en'));
+            
+            const container = document.getElementById('selectedVoice');
+            if (selectedVoice) {
+                container.innerHTML = `
+                    <div class="voice-item selected">
+                        <div>
+                            <strong>✅ ${selectedVoice.name}</strong><br>
+                            <small>${selectedVoice.lang}</small>
+                        </div>
+                    </div>
+                `;
+                log(`🎯 App will use: ${selectedVoice.name} (${selectedVoice.lang})`);
+            } else {
+                container.innerHTML = '<p>❌ No suitable voice found</p>';
+            }
+        }
+
+        function displayIndianVoices() {
+            const indianVoices = allVoices.filter(v => v.lang === 'en-IN');
+            const container = document.getElementById('indianVoices');
+            
+            if (indianVoices.length > 0) {
+                container.innerHTML = '';
+                indianVoices.forEach((voice, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'voice-item indian';
+                    div.innerHTML = `
+                        <div>
+                            <strong>🇮🇳 ${voice.name}</strong><br>
+                            <small>${voice.lang}</small>
+                        </div>
+                        <button onclick="testVoice('${voice.name}')">Test</button>
+                    `;
+                    container.appendChild(div);
+                });
+                log(`\n🇮🇳 Found ${indianVoices.length} Indian English voice(s)`);
+            } else {
+                container.innerHTML = '<p>❌ No Indian English (en-IN) voices available on this system</p>';
+                log('\n❌ No Indian English voices found');
+            }
+        }
+
+        function testVoiceByIndex(index) {
+            const voice = allVoices[index];
+            testVoice(voice.name);
+        }
+
+        function testVoice(voiceName) {
+            const voice = allVoices.find(v => v.name === voiceName);
+            if (!voice) return;
+
+            log(`\n🔊 Testing: ${voice.name}`);
+            const utterance = new SpeechSynthesisUtterance("Hello! I am your AI tutor. This is a test of the text to speech system.");
+            utterance.voice = voice;
+            utterance.rate = 1.1;
+            utterance.pitch = 1.0;
+            utterance.volume = 1.0;
+            
+            utterance.onstart = () => log("▶️ Playing...");
+            utterance.onend = () => log("✅ Complete!");
+            utterance.onerror = (err) => log(`❌ Error: ${err.error}`);
+            
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function testSelectedVoice() {
+            if (selectedVoice) {
+                testVoice(selectedVoice.name);
+            }
+        }
+
+        // Load voices
+        loadVoices();
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+    </script>
+</body>
+</html>
